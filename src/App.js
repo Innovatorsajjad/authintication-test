@@ -1,13 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import HeroInput from './Components/HeroInput/HeroInput';
+import Navbar from './Components/Navbar/Navbar';
 
 function App() {
   return (
     <div className="App">
-      <h1 class="text-3xl font-bold underline">
-        Hello world!
-      </h1>
-      <button class="btn">Button</button>
+      <Navbar/>
+      <HeroInput/>
     </div>
   );
 }
